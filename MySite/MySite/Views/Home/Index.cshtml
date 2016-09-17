@@ -1,31 +1,32 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    Layout = null;
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<!DOCTYPE html>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div class="top-part-container"> 
+
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+
+    <div class="bottom-content-block">
+
+        Here information about me
+
+        Шаблон MVC используется в качестве архитектурной основы во многих фреймворках и CMS, которые создавались для того, чтобы иметь возможность разрабатывать качественно более сложные решения за более короткий срок. Это стало возможным благодаря повышению уровня абстракции, поскольку есть предел сложности конструкций, которыми может оперировать человеческий мозг.
+
+        Но, использование веб-фреймворков, типа Yii или Kohana, состоящих из нескольких сотен файлов, при разработке простых веб-приложений (например, сайтов-визиткок) не всегда целесообразно. Теперь мы умеем создавать красивую MVC модель, чтобы не перемешивать Php, Html, CSS и JavaScript код в одном файле.
+
+        Данная статья является скорее отправной точкой для изучения CMF, чем примером чего-то истинно правильного, что можно взять за основу своего веб-приложения. Возможно она даже вдохновила Вас и вы уже подумываете написать свой микрофреймворк или CMS, основанные на MVC. Но, прежде чем изобретать очередной велосипед с «блекджеком и шлюхами», еще раз подумайте, может ваши усилия разумнее направить на развитие и в помощь сообществу уже существующего проекта?!
+
+        </div>
+
+  
+    @Styles.Render("~/Content/OwnStyles")
+</body>
+</html>

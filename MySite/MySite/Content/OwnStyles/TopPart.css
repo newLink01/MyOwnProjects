@@ -1,0 +1,26 @@
+﻿.top-part-container {
+    background-image : url(../Files/look.com.ua-132357.jpg);
+    height : 450px;
+    width:auto;
+    margin-top: 10px;
+    margin-left : 100px;
+    margin-right : 100px;
+    border-radius:5px;
+}
+
+body {
+    background-color:darkgray;
+}
+
+
+.bottom-content-block {
+    background-color: lightgray;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:30px;
+    border-radius:5px;
+    font-size : medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
