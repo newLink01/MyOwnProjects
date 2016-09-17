@@ -1,26 +1,49 @@
-﻿.top-part-container {
-    background-image : url(../Files/look.com.ua-132357.jpg);
-    height : 450px;
-    width:auto;
-    margin-top: 10px;
-    margin-left : 100px;
-    margin-right : 100px;
-    border-radius:5px;
+﻿.left-bar {
+    margin-top:5px;
+    margin-left:5px;
+    width:200px;
+    height:100px;
+    
+    clear:left;
+    
 }
+
+.all-content-div {
+    margin:5px;
+    border:3px;
+    border-color:black;
+}
+
+
+a.left-bar-element {
+    margin:2px;
+    margin-top:2px;
+    margin-left:20px;
+
+    border:0.5px;
+    border-radius:0.5px;
+    
+
+    padding:5px;
+    text-align:center;
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+    color:Highlight;
+    text-decoration:none;
+    
+}
+
 
 body {
-    background-color:darkgray;
+    background-color:whitesmoke;
 }
 
 
-.bottom-content-block {
-    background-color: lightgray;
-    margin-left:100px;
-    margin-right:100px;
-    margin-top:30px;
-    border-radius:5px;
-    font-size : medium;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px;
-}
 
+
+hr {
+    margin-top:50px;
+    height:1px;
+    background-color:black;
+    clear:left;
+}
